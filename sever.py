@@ -44,6 +44,7 @@ class Sever():
                 continue
             
     def show_answer(self):
+        # 答案打印
         af = open(self.local_path + r"\output.txt")
         answer = af.read()
         print("[Log] Answer:" + answer)
