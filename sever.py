@@ -62,4 +62,5 @@ if __name__ == "__main__":
     server.predict()
     server.download_answer()
     server.show_answer()
+    server.__del__()
 
